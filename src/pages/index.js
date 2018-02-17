@@ -2,16 +2,11 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Mailto from 'react-mailto'
 
-const IndexPage = () => (
+const IndexPage = ({data}) => (
   <div>
     <h1>Hi people</h1>
     <p>Welcome to Joel Pekari's portfolio site (still in renovation).</p>
     <p>Let's go build something great.</p>
-<<<<<<< Updated upstream
-    <Mailto email="joel.pekari@gmail.com" obfuscate={true}>
-      Email me!
-    </Mailto>
-=======
     <p>
       <Mailto email="joel.pekari@gmail.com" obfuscate={true}>
         Email me!
@@ -27,13 +22,10 @@ const IndexPage = () => (
         </Link>
       </li>
     ))}
->>>>>>> Stashed changes
     {/* <Link to="/page-2/">Go to page 2</Link> */}
   </div>
 )
 
-<<<<<<< Updated upstream
-=======
 export const pageQuery = graphql `
   query IndexQuery {
     allMarkdownRemark(
@@ -55,5 +47,4 @@ export const pageQuery = graphql `
   }
 `
 
->>>>>>> Stashed changes
 export default IndexPage

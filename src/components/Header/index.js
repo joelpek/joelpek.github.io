@@ -23,7 +23,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          Joel Pekari | UX & Web
         </Link>
       </h1>
     </div>
