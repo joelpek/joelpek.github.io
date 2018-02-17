@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby LUT`,
+    title: `Joel Pekari Portfolio`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
