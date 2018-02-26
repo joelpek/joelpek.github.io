@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import './index.scss'
 
 const TemplateWrapper = ({ children }) => (
@@ -10,8 +11,8 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Joel Pekari | UX, Web Design & Development"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Home Page for UX & Web Designer Joel Pekari' },
+        { name: 'keywords', content: 'HTML, CSS, JavaScript' },
       ]}
     />
     <Header />
@@ -25,6 +26,7 @@ const TemplateWrapper = ({ children }) => (
     >
       {children()}
     </div>
+    <Footer />
   </div>
 )
 

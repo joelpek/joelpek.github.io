@@ -11,7 +11,9 @@
     "gatsby-source-filesystem": "^1.5.19",
     "gatsby-transformer-remark": "^1.7.32",
     "react-helmet": "^5.2.0",
-    "react-mailto": "^0.4.0"
+    "react-icons": "^2.2.7",
+    "react-mailto": "^0.4.0",
+    "smooth-scroll": "^12.1.5"
   },
   "keywords": [
     "gatsby"
