@@ -1,26 +1,35 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Mailto from 'react-mailto'
-import heroImg1 from '../images/bench-accounting-49027-unsplash.jpg' // relative path to image 
+import heroImg1 from '../images/bench-accounting-49027-unsplash_grad.jpg' // relative path to image 
 import relco from '../images/relco.jpg'
 import funfood from '../images/funfood.jpg'
 import unoi from '../images/unoi.jpg'
 import FaCoffee from 'react-icons/lib/fa/coffee'
-import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollAnimation from 'react-animate-on-scroll'
+import "animate.css/animate.min.css"
 
 const IndexPage = ({data}) => (
   <div className="container">
-<ScrollAnimation animateIn="fadeIn">
+    <ScrollAnimation animateIn="fadeIn" duration="2">
     <Intro />
     <hr/>
+    </ScrollAnimation>
+    <ScrollAnimation animateIn="fadeIn" duration="2">
     <Work />
     <hr/>
+    </ScrollAnimation>
+    <ScrollAnimation animateIn="fadeIn" duration="2">
     <Reel />
     <hr/>
+    </ScrollAnimation>
+    <ScrollAnimation animateIn="fadeIn" duration="2">
     <Education />
+    </ScrollAnimation>
     <hr/>
+    <ScrollAnimation animateIn="fadeIn" duration="2">
     <About />
-</ScrollAnimation>
+    </ScrollAnimation>
   </div>
 )
 
@@ -31,7 +40,8 @@ const Intro = () => (
   >
     <img src={heroImg1} alt={"hero1"}/>
     <h2>Designer & developer from Helsinki, Finland.</h2>
-    <p>I work with solopreneurs, startups and businesses to create great experiences on the web and elsewhere.</p>
+    <p>I work with students, solopreneurs, startups and businesses 
+      <br/>to create great experiences on the web and elsewhere.</p>
     <div>
     <p>
     <button>

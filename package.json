@@ -4,6 +4,7 @@
   "version": "1.0.1",
   "author": "Joel Pekari <joel.pekari@gmail.com>",
   "dependencies": {
+    "animate.css": "^3.6.1",
     "gatsby": "^1.9.201",
     "gatsby-link": "^1.6.34",
     "gatsby-plugin-react-helmet": "^2.0.3",
