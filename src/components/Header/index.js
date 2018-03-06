@@ -19,49 +19,22 @@ const Header = () => (
       }}
     >
       <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Joel Pekari UX/WEB
+        <Link to="/">
+          Joel Pekari
         </Link>
       </h1>
       <h3>
-        <a          
-          data-scroll href="#work"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
+        <a data-scroll href="#work">
           Work
         </a>
       </h3>
-
       <h3>
-        <a
-          data-scroll href="#education"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
+        <a data-scroll href="#education">
           Education
         </a>
       </h3>
-
-
       <h3>
-        <a
-          data-scroll href="#about"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
+        <a data-scroll href="#about">
           About
         </a>
       </h3>

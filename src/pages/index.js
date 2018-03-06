@@ -5,20 +5,22 @@ import heroImg1 from '../images/bench-accounting-49027-unsplash.jpg' // relative
 import relco from '../images/relco.jpg'
 import funfood from '../images/funfood.jpg'
 import unoi from '../images/unoi.jpg'
-
-// import Intro from '../components/Intro';
-// import Work from '../components/Work';
-// import Education from '../components/Education';
-// import Reel from '../components/Reel';
-// import About from '../components/About';
+import FaCoffee from 'react-icons/lib/fa/coffee'
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const IndexPage = ({data}) => (
   <div className="container">
+<ScrollAnimation animateIn="fadeIn">
     <Intro />
+    <hr/>
     <Work />
-    <Education />
+    <hr/>
     <Reel />
+    <hr/>
+    <Education />
+    <hr/>
     <About />
+</ScrollAnimation>
   </div>
 )
 
@@ -33,7 +35,7 @@ const Intro = () => (
     <div>
     <p>
     <button>
-      <Mailto email="pekarijoel@gmail.com" /* obfuscate={true} */>
+      <Mailto email="pekarijoel@gmail.com">
         Email me!
       </Mailto>
     </button>
@@ -78,7 +80,10 @@ const Education = () => (
 const About = () => (
   <div id="about">
     <h2>About</h2>
-    <p>I enjoy hiking, running good food and (almost...) all kinds of music.</p>
+    <p>I enjoy hiking, running, good food and (almost...) all kinds of music.
+      <br/>If you'd like to know more or possibly even hire me, well then:
+      </p>
+    <p>Let's grab a <FaCoffee /></p>
   </div>
 )
 
