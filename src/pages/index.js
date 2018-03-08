@@ -91,7 +91,7 @@ const About = () => (
   <div id="about">
     <h2>About</h2>
     <p>I enjoy hiking, running, good food and (almost...) all kinds of music.
-      <br/>If you'd like to know more or possibly even hire me, well then:
+      <br/>If you'd like to know more or possibly even work with me, well then:
       </p>
     <p>Let's grab a <FaCoffee /></p>
   </div>
