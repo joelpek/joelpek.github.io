@@ -69,7 +69,7 @@ const Work = () => (
 const Reel = () => (
   <div id="reel">
     <h3>Featured Works</h3>
-    <a href="https://relco.fi"><img src={relco} alt={"relco.fi"}/>></a>
+    <a href="https://relco.fi"><img src={relco} alt={"relco.fi"}/></a>
     <a href="http://funfood.fi"><img src={funfood} alt={"funfood.fi"}/></a>
   </div>
 )
