@@ -4,7 +4,6 @@ import Mailto from 'react-mailto'
 import heroImg1 from '../images/bench-accounting-49027-unsplash_grad.jpg' // relative path to image 
 import relco from '../images/relco.jpg'
 import funfood from '../images/funfood.jpg'
-import unoi from '../images/unoi.jpg'
 import FaCoffee from 'react-icons/lib/fa/coffee'
 import ScrollAnimation from 'react-animate-on-scroll'
 import "animate.css/animate.min.css"
@@ -70,9 +69,8 @@ const Work = () => (
 const Reel = () => (
   <div id="reel">
     <h3>Featured Works</h3>
-    <a href="https://relco.fi"><img src={relco} alt={"relco.fi"}/><h3>Relco</h3></a>
-    <a href="http://funfood.fi"><img src={funfood} alt={"funfood.fi"}/><h3>FunFood</h3></a>
-    <a href="http://unoi.co"><img src={unoi} alt={"unoi.fi"}/><h3>unoi</h3></a>
+    <a href="https://relco.fi"><img src={relco} alt={"relco.fi"}/>></a>
+    <a href="http://funfood.fi"><img src={funfood} alt={"funfood.fi"}/></a>
   </div>
 )
 
