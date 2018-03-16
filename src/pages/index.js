@@ -3,7 +3,12 @@ import Link from 'gatsby-link'
 import Mailto from 'react-mailto'
 import heroImg1 from '../images/bench-accounting-49027-unsplash_grad.jpg' // relative path to image 
 import relco from '../images/relco.jpg'
-import funfood from '../images/funfood.jpg'
+import quote from '../images/qote.png'
+import weather from '../images/wthr.png'
+import wiki from '../images/wiki.png'
+import twitch from '../images/twitch.png'
+import calc from '../images/calc.png'
+import pomo from '../images/pomo.png'
 import FaCoffee from 'react-icons/lib/fa/coffee'
 import ScrollAnimation from 'react-animate-on-scroll'
 import "animate.css/animate.min.css"
@@ -68,9 +73,17 @@ const Work = () => (
 
 const Reel = () => (
   <div id="reel">
-    <h3>Featured Works</h3>
-    <a href="https://relco.fi"><img src={relco} alt={"relco.fi"}/></a>
-    <a href="http://funfood.fi"><img src={funfood} alt={"funfood.fi"}/></a>
+    <h3>Featured Projects</h3>
+    <div id="reelCont">
+      <a target="_blank" href="https://relco.fi"><img src={relco} alt={"relco.fi"}/></a>
+      {/* <a target="_blank" href="http://funfood.fi"><img src={funfood} alt={"funfood.fi"}/></a> */}
+      <a target="_blank" href="https://codepen.io/stewdee/pen/vJwKxv"><img src={quote} alt={"codepen1"}/></a>
+      <a target="_blank" href="https://codepen.io/stewdee/pen/mBRvgP"><img src={weather} alt={"codepen2"}/></a>
+      <a target="_blank" href="https://codepen.io/stewdee/pen/vevKQV"><img src={wiki} alt={"codepen3"}/></a>
+      <a target="_blank" href="https://codepen.io/stewdee/pen/boOpvM"><img src={twitch} alt={"codepen4"}/></a>
+      <a target="_blank" href="https://codepen.io/stewdee/pen/OxvENV"><img src={calc} alt={"codepen5"}/></a>
+      <a target="_blank" href="https://codepen.io/stewdee/pen/qPMapO"><img src={pomo} alt={"codepen6"}/></a>
+    </div>
   </div>
 )
 
