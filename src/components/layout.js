@@ -8,9 +8,12 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { FaGithub, FaLinkedin, FaCodepen, FaFreeCodeCamp } from "react-icons/fa"
+import { IconContext } from "react-icons"
 
 import Header from "./header"
 import "./layout.css"
+// import "./layout.scss"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -35,9 +38,28 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          {/* <ScrollAnimation animateIn="fadeIn" duration="2"> */}
+          <IconContext.Provider value={{ className: "faIcons" }}>
+            <a href="http://www.linkedin.com/in/joelpekari">
+              <FaLinkedin size={30} />
+            </a>
+            <a href="http://www.github.com/joelpek">
+              <FaGithub size={30} />
+            </a>
+            <a href="https://codepen.io/stewdee">
+              <FaCodepen size={30} />
+            </a>
+            <a href="http://www.freecodecamp.com/joelpek">
+              <FaFreeCodeCamp size={35} />
+            </a>
+          </IconContext.Provider>
+          <br />
+          {/* </ScrollAnimation> */}
+          <br />
+          <p>
+            © {new Date().getFullYear()}, Built with{" "}
+            <a href="https://www.gatsbyjs.org">Gatsby</a>
+          </p>
         </footer>
       </div>
     </>

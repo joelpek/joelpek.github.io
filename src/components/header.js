@@ -1,14 +1,25 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import {Helmet} from "react-helmet"
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `black`,
       marginBottom: `1.45rem`,
     }}
   >
+    <Helmet
+      title={siteTitle}
+      meta={[
+        {
+          name: "description",
+          content: "Home Page for UX & Web Designer Joel Pekari",
+        },
+        { name: "keywords", content: "HTML, CSS, JavaScript" },
+      ]}
+    />
     <div
       style={{
         margin: `0 auto`,
