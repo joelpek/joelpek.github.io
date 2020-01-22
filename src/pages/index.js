@@ -6,7 +6,7 @@ import heroImg1 from "../images/bench-accounting-49027-unsplash_grad.jpg" // rel
 // import quote from "../images/quote.png";
 import weather from "../images/wthr.png"
 import wiki from "../images/wiki.png"
-import twitch from "../images/twitch.png"
+// import twitch from "../images/twitch.png"
 import calc from "../images/calc.png"
 import pomo from "../images/pomo.png"
 // import { FaCoffee } from "react-icons/fa"
@@ -106,13 +106,13 @@ const Reel = () => (
       >
         <img src={wiki} alt={"codepen3"} />
       </a>
-      <a
+      {/* <a
         target="_blank"
         rel="noopener noreferrer"
         href="https://codepen.io/stewdee/pen/boOpvM"
       >
         <img src={twitch} alt={"codepen4"} />
-      </a>
+      </a> */}
       <a
         target="_blank"
         rel="noopener noreferrer"
