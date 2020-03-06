@@ -20,7 +20,7 @@ import { FaCode } from 'react-icons/fa'
 
 const IndexPage = ({ data }) => (
     <Layout>
-        <SEO title="Hello Toptal" />
+        {/* <SEO title="Home Page" /> */}
         <div className="container">
             {/* <ScrollAnimation animateIn="fadeIn" duration="2"> */}
             <Intro />
@@ -59,8 +59,8 @@ const Intro = () => (
             <p>
                 <a href={cv}>Check out my CV!</a>
                 {/* <button>
-          <Mailto email="pekarijoel@gmail.com">Email me!</Mailto>
-        </button> */}
+                  <Mailto email="pekarijoel@gmail.com">Email me!</Mailto>
+                </button> */}
             </p>
         </div>
     </div>
