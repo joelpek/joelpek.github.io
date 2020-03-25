@@ -1,22 +1,22 @@
 import React from 'react'
-// import { Link } from "gatsby"
-// import Mailto from "react-mailto"
 import heroImg1 from '../images/bench-accounting-49027-unsplash_grad.jpg' // relative path to image
 import cv from '../content/CV_PEKARIJOEL.pdf'
-// import relco from "../images/relco.jpg";
-// import quote from "../images/quote.png";
 import weather from '../images/wthr.png'
 import wiki from '../images/wiki.png'
-// import twitch from "../images/twitch.png"
 import calc from '../images/calc.png'
 import pomo from '../images/pomo.png'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import { FaCode } from 'react-icons/fa'
+// import { Link } from "gatsby"
+// import Mailto from "react-mailto"
+// import relco from "../images/relco.jpg";
+// import quote from "../images/quote.png";
+// import twitch from "../images/twitch.png"
 // import { FaCoffee } from "react-icons/fa"
 // import { IconContext } from "react-icons"
 // import ScrollAnimation from "react-animate-on-scroll";
-import Layout from '../components/layout'
 // import "animate.css/animate.min.css";
-import SEO from '../components/seo'
-import { FaCode } from 'react-icons/fa'
 
 const IndexPage = ({ data }) => (
     <Layout>
@@ -114,12 +114,12 @@ const Reel = () => (
                 <img src={wiki} alt={'codepen3'} />
             </a>
             {/* <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://codepen.io/stewdee/pen/boOpvM"
-      >
-        <img src={twitch} alt={"codepen4"} />
-      </a> */}
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://codepen.io/stewdee/pen/boOpvM"
+            >
+              <img src={twitch} alt={"codepen4"} />
+            </a> */}
             <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -143,7 +143,11 @@ const Education = () => (
         <h2>Education</h2>
         <ul>
             <li>
-                <b>freeCodeCamp</b> | Full Stack Web Development Certification |
+                <b>Various online courses</b> | Algorithms, E-commerce, Entrepreneurship |
+                '13 - (ongoing)
+            </li>
+            <li>
+                <b>freeCodeCamp</b> | Full Stack Web Development & Data Visualization Certification |
                 '16 - (ongoing)
             </li>
             <li>
@@ -162,15 +166,14 @@ const About = () => (
     <div id="about">
         <h2>About</h2>
         <p>
-            I enjoy hiking, running, good food and (almost...) all kinds of
-            music.
+            When I'm not coding or researching tech I enjoy the outdoors, books and podcasts.
             <br />
-            If you'd like to know more or possibly even work with me, find me on
-            LinkedIn!
+            If you'd like to know more or possibly even work with me, you can
+            find my contact information on LinkedIn, for example!
             {/* <br />
-      <IconContext.Provider value={{ className: "faIcons" }}>
-        Let's grab a <FaCoffee size={20} />
-      </IconContext.Provider> */}
+            <IconContext.Provider value={{ className: "faIcons" }}>
+              Let's grab a <FaCoffee size={20} />
+            </IconContext.Provider> */}
         </p>
     </div>
 )
