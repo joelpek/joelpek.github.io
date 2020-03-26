@@ -67,16 +67,3 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
-src/components/layout.scss
-src/content/CV_PEKARIJOEL.pdf
-src/images/bench-accounting-49027-unsplash_grad.jpg
-src/images/bench-accounting-49027-unsplash.jpg
-src/images/calc.png
-src/images/funfood.jpg
-src/images/pomo.png
-src/images/quote.png
-src/images/relco.jpg
-src/images/twit.png
-src/images/twitch.png
-src/images/wiki.png
-src/images/wthr.png
