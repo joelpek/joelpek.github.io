@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{vx99:function(e,t,a){"use strict";a.r(t);var l=a("q1tI"),n=a.n(l),o=a("Wbzz"),p=a("Bl7J"),c=a("vrFN");t.default=function(){return n.a.createElement(p.a,null,n.a.createElement(c.a,{title:"Hello Toptal"}),n.a.createElement("h1",null,"Hello Toptal"),n.a.createElement("p",null,"This is a placeholder for a blog post supplement to my Toptal application"),n.a.createElement(o.Link,{to:"/"},"Go back to the homepage"))}}}]);
-//# sourceMappingURL=component---src-pages-blog-js-591471e9889219ff6099.js.map
